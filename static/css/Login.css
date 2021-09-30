@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* LOGIN */
+.loginPage {
+  background-image: url("../images/login_background.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
+  /* width: 100%; */
+  margin: auto;
+}
+
+.brandTitle {
+  padding-top: 41.1%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  color: white;
+  font-family: 'Style Script', cursive;
+}
+
+.loginHeader {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.loginButton {
+  width: 7%;
+  margin-top: 3%;
+  margin-right: 4.5%;
+  background: transparent;
+  border: white solid 2px;
+}
+
+.loginButton:hover {
+  cursor: pointer;
+}
+
+.loginText {
+  font-family: "Barlow", sans-serif;
+  color: white;
+  font-size: 18px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.signupButton {
+  width: 7%;
+  margin-top: 3%;
+  margin-right: 11%;
+  background: transparent;
+  border: white solid 2px;
+}
+
+.signupButton:hover {
+  cursor: pointer;
+}
+
+.loginOverlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.loginOverlay .closebtn {
+  position: absolute;
+  top: 45px;
+  right: 100px;
+  font-size: 60px;
+  background: transparent;
+  border: transparent;
+  color: white;
+  font-size: 70px;
+}
+
+.loginOverlay .closebtn:hover {
+  cursor: pointer;
+}
+
+.overlayContent {
+  position: relative;
+  top: 25%;
+  width: 27%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.loginForm {
+  height: 24%;
+  border: solid white 2px;
+}
+
+.signupForm {
+  height: 30.5%;
+  border: solid white 2px;
+}
+
+.password {
+  margin-top: 3%;
+  color: white;
+  font-family: "Kosugi Maru", sans-serif;
+  font-size: 19px;
+}
+
+.email {
+  margin-top: 7%;
+  margin-left: 7%;
+  color: white;
+  font-family: "Kosugi Maru", sans-serif;
+  font-size: 19px;
+}
+
+.username {
+  margin-top: 3%;
+  color: white;
+  font-family: "Kosugi Maru", sans-serif;
+  font-size: 19px;
+}
+
+.executeButton {
+  width: 20%;
+  height: 15%;
+  margin-top: 8%;
+  background: white;
+  border: solid white 2px;
+  color: black;
+}
+
+.loginExecuteButton:hover {
+  cursor: pointer;
+}

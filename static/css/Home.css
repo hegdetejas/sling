@@ -1,0 +1,327 @@
+.hHeaderBar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #014236;
+  position: sticky;
+  top: 0;
+  height: 14%;
+  align-items: center;
+  z-index: 9999;
+}
+
+.hUsernameButtonDiv {
+  margin-right: 5%;
+  border: solid white 1px;
+  border-radius: 5px;
+  width: 8%;
+}
+
+.hUsernameButton {
+  background-color: #014236;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.hUsernameButton:hover {
+  background-color: #015949;
+}
+
+.hUsername {
+  margin-top: 12%;
+  margin-bottom: 12%;
+  color: white;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hBrandName {
+  margin-left: 5%;
+  color: white;
+  font-size: 55px;
+  font-family: 'Style Script', cursive;
+  font-weight: 100;
+}
+
+.hBrandName:hover {
+  cursor: pointer;
+}
+
+.hTopBreak {
+  margin: 0;
+  height: 5%;
+  color: #c7c7c7;
+  background-color: #c7c7c7;
+}
+
+.hMainGrid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 85.9%;
+}
+
+.hMainGridThread {
+  display: grid;
+  grid-template-columns: 20% 55% 25%;
+  height: 85.9%;
+}
+
+.hChannels {
+  background-color: #014236;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hChannelsHeader {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12%;
+  margin-bottom: 8%;
+}
+
+.hChannelComponent {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 87%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.hChannelComponent:hover {
+  background-color: #000000;
+  opacity: 0.5;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hChannelsMain {
+  max-height: 72%;
+  overflow: scroll;
+}
+
+.hChannelsMain::-webkit-scrollbar {
+  display: none;
+}
+
+.hChannelName {
+  margin-left: 8%;
+}
+
+
+.hChannelsTitle {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.hChannelsMain {
+  width: 90%;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.hAddButton {
+  margin-left: 12%;
+  margin-bottom: 5%;
+  color: white;
+  font-size: 25px;
+}
+
+.hAddButton:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.hChannelTitle {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  margin-bottom: 8%;
+}
+
+.hCreateChannelInput {
+  display: block;
+  margin-left: 27.5%;
+  margin-bottom: 4%;
+}
+
+.hCreateButton {
+  background-color: #014236;
+  border: 2px solid #014236;
+  color: white;
+}
+
+.hCreateOverlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  overflow-y: hidden;
+  transition: 0.5s;
+  z-index: 9999 !important;
+}
+
+.hCreateOverlay .closebtn {
+  position: absolute;
+  top: 45px;
+  right: 100px;
+  font-size: 60px;
+  background: transparent;
+  border: transparent;
+  color: white;
+  font-size: 70px;
+}
+
+.hCreateOverlay .closebtn:hover {
+  cursor: pointer;
+}
+
+.hAlreadyExistsText {
+  color: #ff9c9c;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 4%;
+}
+
+
+.hMessages {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.hNoChannelSelected {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hUnread {
+  align-self: center;
+  margin-right: 8%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.hMessagesHeader {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.hMessagesMain {
+  height: 510px;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+  margin-bottom: 3%;
+  /* width: 100%; */
+}
+
+.hActualMessage {
+  /* border-bottom: solid 1px black; */
+  margin-bottom: 2%;
+}
+
+.hActualMessage:hover {
+  background-color: #c9c9c9;
+}
+
+.hActualMessageUsername {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+.hActualMessageBody {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: regular;
+  margin-left: 4%;
+}
+
+.hMessagesBox {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.hInputBar {
+  border-color: #9c9c9c;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.hSendButton {
+  margin-left: 15%;
+}
+
+.hRed {
+  font-size: 25px;
+  color: red;
+}
+
+.hRed:hover {
+  cursor: pointer;
+}
+
+.hGreen {
+  font-size: 30px;
+  /* color: #00c45f; */
+  color: #014236;
+}
+
+.hGreen:hover {
+  cursor: pointer;
+}
+
+.hReply {
+  width: 50%;
+  margin-left: 4%;
+  height: 18px;
+  margin-top: 0.5%;
+}
+
+.hReply:hover {
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.hReplyText {
+  font-size: 12px;
+  color: blue;
+  align-self: center;
+}
+
+.logoutButton {
+  width: 20%;
+  height: 5%;
+  background: red;
+  border: solid white 2px;
+  color: white;
+  margin-top: 8%;
+}
+
+.executeButton {
+  width: 20%;
+  height: 15%;
+  margin-top: 8%;
+  background: white;
+  border: solid white 2px;
+  color: black;
+}
+
+.hImage {
+  width: 20px;
+  height: 20px;
+}

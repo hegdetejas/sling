@@ -1,0 +1,79 @@
+.tThread {
+  border-left: 1px solid black;
+}
+
+.tThreadHeader {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+}
+
+.tThreadTitle {
+  align-self: center;
+}
+
+.tClosebtn {
+  font-size: 32px;
+}
+
+.tClosebtn:hover {
+  cursor: pointer;
+}
+
+.tThreadHR {
+  margin-top: 0;
+}
+
+.tThreadSecondHR {
+  margin-top: 0;
+  width: 80%;
+  margin: auto;
+}
+
+.tOriginalMessage {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.tReplies {
+  height: 428px;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+  margin-bottom: 9.5%;
+}
+
+.tActualReply {
+  /* border-bottom: solid 1px black; */
+  margin-top: 5%;
+}
+
+.tActualReply:hover {
+  background-color: #c9c9c9;
+}
+
+.tActualReplyUsername {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+.tActualReplyBody {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: regular;
+  margin-left: 4%;
+}
+
+.tReplyBox {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 85% 15%;
+}
+
+.tNoReplies {
+  margin-top: 5%;
+}
