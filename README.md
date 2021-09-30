@@ -9,7 +9,7 @@ P.S. The visual design of this application was inspired by Slack :)
 ### Usage
 
 - Clone the repository from: https://github.com/hegdetejas/sling.git
-- cd into the final/ folder
+- cd into the sling/ folder
 - Create a virtual environment to handle dependencies with: python -m venv env
 - Install the dependencies via: pip3 install -r requirements.txt
 - Create a secrets.cfg file with the following structure (it is important that this structure is maintained and the variables are named the same)
